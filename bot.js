@@ -33,7 +33,7 @@ SERVER EIVEL .`,"http://twitch.tv/S-F")
 
 client.on("message", message => {
 
-            if (message.content.startsWith(prefix + "bcevil")) {
+            if (message.content.startsWith(prefix + "brodcast")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
