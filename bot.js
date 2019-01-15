@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 const Yazeedd = new Discord.Client();
 const prefix = '!'
 
-client.on('ready', () => {
+Yazeedd.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` SERVER EIVEL.| Bot By Yazeed.#9999 `,"http://twitch.tv/S-F")
+Yazeedd.user.setGame(` SERVER EIVEL.| Bot By Yazeed.#9999 `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -30,7 +30,7 @@ client.user.setGame(` SERVER EIVEL.| Bot By Yazeed.#9999 `,"http://twitch.tv/S-F
 
 
 
-client.on('message', msg => {
+Yazeedd.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('Pong!');
   }
